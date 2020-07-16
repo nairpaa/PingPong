@@ -34,7 +34,7 @@ else
     # check whether using arguments?
     if [ -z $1 ]
     then
-        echo "argument not found\n"
+        echo -e "Argument not found.\n"
         
         echo "Usage:"
         echo "./pingpong.sh ip-list.txt"
